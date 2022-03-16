@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    margin-top: 3px;
+    background: white;
+}
+.logo{
+    width: 90%;
+    height: 100%;
+    align-items: center;
+}   
+
+.navbar-nav li a{
+    color: white;
+}
+
+.banner{
+    margin: 0px;
+}
+
+.at{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.daumuc{
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight:bold ;
+    height: 40px;
+}
+
+.card{
+    margin-top: 10px;
+}
+
+.indammenu{
+    font-weight: bold;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color:forestgreen;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
